@@ -200,6 +200,7 @@ color: #034D82;
 .pp{
     color: #04AADD;
 }
+
 /*SECTION 4**********************************************/
 .section4{
     text-align: center;
@@ -361,6 +362,12 @@ color: #034D82;
 .get:hover{
     background-color: rgba(153, 47, 153, 0.385);
     color: white;    
+}
+.header6{
+    gap: 21rem;
+}
+.gauche{
+    margin-bottom: 8rem;
 }
 /*section 7*********************************************************/
 .section7 {
