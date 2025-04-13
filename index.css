@@ -767,10 +767,16 @@ color: #034D82;
     line-height: 25px;
     }
 .img2 {
-    width: 100%;
+    width: 44%;
     height: auto;
-    margin-left: 3rem;
+    margin-left: 20rem;
+    margin-top: -294px;
 }
+.img11 {
+    margin-left: 23rem;
+    width: 19rem;
+}
+
 .tele {
     width: 100%;
     height: auto;
@@ -851,6 +857,21 @@ color: #034D82;
 .text{
     margin-top: 14rem;
     }
+.part1s3 {
+    margin:1rem 1rem 1rem 1rem;
+}
+.pc{
+    height: 10rem;
+    width: 15rem;
+    margin-top: 14rem;
+    margin-left: -7rem;
+}
+.gauchee{
+    width: 62rem;
+  height: 32rem;
+  margin-top: 56px;
+  margin-left: 10rem;
+}
 }
 
 
