@@ -93,6 +93,7 @@ body {
     padding: 10px 20px;
     font-size: 1rem;
     transition: color 0.5s, background-color 0.5s;
+    
  }
 .b1:hover {
     background-color: rgba(153, 47, 153, 0.385);
@@ -113,7 +114,7 @@ body {
   width: 10rem;
   cursor: pointer;
   background:  #04AADD;
-  border-radius: none;
+  border-radius: 0px;
   border:none;
   color: white;
   font-weight: bold;
@@ -122,11 +123,14 @@ body {
     width: 62rem;
   height: 32rem;
 }
+.img11{
+    margin-left: 24rem;
+}
 .img2{
     width: 48rem;
-    height: 49rem;
-    margin-left: 260px;
-    margin-top: 70px;
+  height: 49rem;
+  margin-left: 260px;
+  margin-top: -24rem;
 }
 /*SECTION 2**********************************************/
 .header2{
@@ -397,7 +401,6 @@ color: #034D82;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
     line-height: 1rem;
-    
 }
 .p {
     color: #d3d6d8ca;
@@ -414,529 +417,422 @@ color: #034D82;
     background: #081315; 
     color: white;
 }
-
+ 
 /* format iphone ********************************************/
 
 @media screen and (max-width: 500px) {
-    .logo , .ehya {
-        width: 3rem;
-        height: 1rem;
-    }
-
-    .login  {
-        font-size: 8px;
-        font-weight: normal;
-        padding:0px 9px 0px 9px;
-      }
-
-    
-    .hp1 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    .vect , .img1{
-        height: 2rem;
-        width: 8rem;
-        margin: auto;
-    }
-    .ps, .pp1, .pp2, .pp3, .pp4 {
-        font-size: 0.75rem;
-        line-height: 22px;
-    }
-    
-    .img2 {
-        width: 158%;
-        height: auto;
-        margin: -2rem 0rem -5rem -4rem;
-    }
-    
-    .b1, .b2 {
-        width: 93%;
-        height: 3.6rem;
-    }
-    /*page2*/
-    .div2, .imgp2{
-        height: 0.9rem;
-        width: 3rem;
-    }
-    .header2{
-        margin: 0;
-    }
-    .tele , .pictele {
-        width: 100%;
-        margin-top: 1rem;
-        margin-left: 0rem;
-    }
-    .section2{
-        height: 23rem;
-    }
-    .ALL {
-        font-size: 64%;
-        margin-bottom: auto;
-    }
-    .pp1{
-        font-size: 73%;
-    }
-    .pp2{
-        font-size: 95%;
-    }
-    .part1, .parts2, .header2, .section {
-        
-        align-items: center;
-        
-        padding: 1rem;
-    }
-
-
-
-    .hs3 , .pp3 , .poi {
-        font-size: x-small;
-    }
-    .hs3{
-        font-size: 94%;
-        width: 202%;
-    }
-    .pp3{
-        font-size: 47%;
-        width: 198%;
-    }
-    .part1s3{
-        margin: 0;
-    }
-    .poi{
-        width: 129%;
-        font-size: 60%;
-    }
-    .pp{
-        font-size: 67%;
-    }
-    .part2s3 , .mac{
-        width: 85%;
-        margin-top: 2rem;
-    }
-    .mc{
-        width: 5%;
-    }
-    .pp{
-        font-size: 59%;
-    }
-    
-
-
-
-
-
-
-
-
-    .hh4{
-        font-size: 117%;
-    }
-    .pp4{
-        font-size: 66%;
-    }
-    .div4{
-        width: 38%;
-        height: auto;
-
-    }
-
-    .cap{
-        margin:30px 0px 0px -5rem;
-        width: 21%;
-        height: 47%;
-    }
-    .pp5{
-        font-size: 47%;
-        text-align: start;
-        padding:0px 0px 0px 9px;
-  }
-    
-    .hh5{
-        padding: 0px 0px 0px 10px;
-    }
-
-    .gauche {
-        width: 100%;
-        height: auto;
-        padding: 1rem;
-    }
-
-    .div {
-        width: 1rem;
-        height: 2rem;
-
-    }
-    .info{
-        font-size: 69%;
-
-    }
-    .header {
-       
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .divs5{
-        width: 10%;
-        height: 10%;
-       
-    }
-    .txt1{
-        font-size: 10%;
-        white-space: nowrap;
-    }
-    .txt2{
-        font-size: 10%;
-       
-    }
-    /*hhhh*/
-
-
-      .header5{
-        margin: 0;
-      }
-
-    .divs6 {
-        width: 54%;
-        
-      }
-        .divs5 {
-            width: 69%;
-            text-align: start;
-            margin-left: 34%;
-            height: 175%;
-          
-        }
-      
-        .txt1 {
-          font-size: 10px;
-
-        }
-      
-        .txt2 {
-          font-size: 9px;
-
-        }
-
-        .point img {
-            width: 16px;
-            height: auto;
-            margin-left: -7rem;
-        }
-        
-        .stars img.str {
-            width: 85px;
-            height: auto;
-            margin-left: -6rem;
-        }
-      
-        .txxt {
-            font-size: 8px;
-            line-height: 1.4;
-            margin-left: -9rem;
-
-          }
-        
-          .profile {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            gap: 8px;
-            margin-top: 10px;
-          }
-        
-          .fg img {
-            width: 6px;
-            height: auto;
-            margin-left: -22px;
-          }
-          .prof img.profileimg {
-            width: 129px;
-            height: 23px;
-        }
-        .fd{
-            width: 12rem;
-            height: 1rem;
-        }
-         .fd img.fleche{
-            width: 68px;
-            height: 76px;
-            
-         }
-          .pers img{
-            width: 8px;
-            height: auto;
-            margin-left: -4rem;
-          }
-      
-        .suiv {
-
-          margin-left: -8rem;
-        }
-        
-      
-        .divs, .divss {
-            width: 3px;
-            height: 3px;
-
-
-
-        }
-      
-
-
-    
-    .header6 {
-        flex-direction: column;
-        padding: 2rem;
-        margin: 2rem;
-        height: auto;
-        text-align: center;
-    }
-    .divs6{
-        width: 54%;
-         align-content: center;
-    }
-    .gauche {
-        width: 100%;
-        margin-left: 42px;
-      }
-    
-      .h {
-        padding: 0rem 0;
-        font-size: 1rem;
-        line-height: 1.4;
-      }
-    
-      .pa {
-        padding: 0rem 0;
-        font-size: 13px;
-        color: white;
-      }
-    
-      .prf {
-        width: 120px;  
-        padding: 0.5rem 0;
-      }
-    
-      .get {
-        height: 3rem;
-        width: 9rem;
-        font-size: 0.9rem;
-        margin-top: 1rem;
-      }
-
-      .section7 {
-        padding: 1rem;
-      }
-    
-      .header7 {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 2rem;
-      }
-    
-
-      .logoo {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-      }
-    
-      .logoo1 {
-        width: 80px;
-        height: auto;
-      }
-    
-      
-      .pl {
-        font-size: 1.1rem;
-        text-align: center;
-        margin-top: 1rem;
-      }
-    
-
-      .icons {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        margin-top: 1rem;
-      }
-    
-      .ico img {
-        width: 25px; 
-        height: auto;
-      }
-    
-
-      .div8 {
-        width: 100%;
-        margin-top: 1.5rem;
-      }
-    
-      .pr {
-        font-size: 1.2rem;
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-      }
-    
-      .p {
-        font-size: 0.9rem;
-        margin-bottom: 0.5rem;
-      }
-
-
-
-
-
-
-    
-    .section7, .section8 {
-        
-        height: auto;
-        padding: 2rem;
-    }
-    
-
-    
-    .soustitre1 {
-        margin-top: -16rem;
-        text-align: center;
-    }
-    .section4 {
-        height: 37rem;
-    }
-    .part2s4{
-        flex-wrap: wrap;
-        gap: 2rem;
-
-    }
-    .grp1{
-        margin-right: 1%;
-    }
-    .grp2{
-        margin-top: 0rem;
-    }
-    .fg{
-        margin-left: -9rem;
-    }
+.logo , .ehya {
+    width: 3rem;
+    height: 1rem;
 }
-
-/* format ipade     ********************************************/
+.login  {
+    font-size: 8px;
+    font-weight: normal;
+    padding:0px 9px 0px 9px;
+}
+.hp1 {
+    font-size: 1.5rem;
+    text-align: center;
+    }
+.vect , .img1{
+    height: 2rem;
+    width: 8rem;
+    margin: auto;
+}
+.ps, .pp1, .pp2, .pp3, .pp4 {
+    font-size: 0.75rem;
+    line-height: 22px;
+}    
+.img2 {
+    width: 158%;
+    height: auto;
+    margin: -2rem 0rem -5rem -4rem;
+}    
+.b1, .b2 {
+    width: 93%;
+    height: 3.6rem;
+}
+.div2, .imgp2{
+    height: 0.9rem;
+    width: 3rem;
+}
+.header2{
+    margin: 0;
+}
+.tele , .pictele {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+.section2{
+    height: 23rem;
+}
+.ALL {
+    font-size: 64%;
+    margin-bottom: auto;
+}
+.pp1{
+    font-size: 73%;
+}
+.pp2{
+        font-size: 95%;
+}
+.part1, .parts2, .header2, .section {        
+    align-items: center;    
+    padding: 1rem;
+}
+.hs3 , .pp3 , .poi {
+    font-size: x-small;
+}
+.hs3{
+    font-size: 94%;
+    width: 202%;
+}
+.pp3{
+    font-size: 47%;
+    width: 198%;
+}
+.part1s3{
+    margin: 0;
+}
+.poi{
+    width: 129%;
+    font-size: 60%;
+}
+.pp{
+    font-size: 67%;
+}
+.part2s3 , .mac{
+    width: 85%;
+    margin-top: 2rem;
+}
+.mc{
+    width: 5%;
+}
+.pp{
+    font-size: 59%;
+}
+.hh4{
+    font-size: 117%;
+}
+.pp4{
+    font-size: 66%;
+}
+.div4{
+    width: 38%;
+    height: auto;
+}
+.cap{
+    margin:30px 0px 0px -5rem;
+    width: 21%;
+    height: 47%;
+}
+.pp5{
+    font-size: 47%;
+    text-align: start;
+    padding:0px 0px 0px 9px;
+}    
+.hh5{
+    padding: 0px 0px 0px 10px;
+}
+.gauche {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.div {
+    width: 1rem;
+    height: 2rem;
+}
+.info{
+    font-size: 69%;
+    }
+.header {       
+    flex-direction: column;
+    align-items: center;    
+}
+.divs5{
+    width: 10%;
+    height: 10%;   
+}
+.txt1{
+    font-size: 10%;
+    white-space: nowrap;
+}
+.txt2{
+    font-size: 10%;       
+}
+.header5{
+    margin: 0;
+}
+.divs6 {
+   width: 54%;        
+}
+.divs5 {
+    width: 69%;
+    text-align: start;
+    margin-left: 34%;
+    height: 175%;          
+}
+.txt1 {
+    font-size: 10px;
+}      
+.txt2 {
+    font-size: 9px;
+}
+.point img {
+    width: 16px;
+    height: auto;
+    margin-left: -7rem;
+}
+.stars img.str {
+    width: 85px;
+    height: auto;
+    margin-left: -6rem;
+}      
+.txxt {
+    font-size: 8px;
+    line-height: 1.4;
+    margin-left: -9rem;
+}        
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}        
+.fg img {
+    width: 6px;
+    height: auto;
+    margin-left: -22px;
+}
+.prof img.profileimg {
+    width: 129px;
+    height: 23px;
+}
+.fd{
+    width: 12rem;
+    height: 1rem;
+}
+.fd img.fleche{
+    width: 68px;
+    height: 76px; 
+}
+.pers img{
+    width: 8px;
+    height: auto;
+    margin-left: -4rem;
+}
+.suiv {
+    margin-left: -8rem;
+}     
+.divs, .divss {
+    width: 3px;
+    height: 3px;
+}  
+.header6 {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+    height: auto;
+    text-align: center;
+}
+.divs6{
+    width: 54%;
+    align-content: center;
+}
+.gauche {
+    width: 100%;
+    margin-left: 42px;
+}  
+.h {
+    padding: 0rem 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+.pa {
+    padding: 0rem 0;
+    font-size: 13px;
+    color: white;
+}   
+.prf {
+    width: 120px;  
+    padding: 0.5rem 0;
+    }
+.get {
+    height: 3rem;
+    width: 9rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.section7 {
+    padding: 1rem;
+}
+.header7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.logoo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.logoo1 {
+    width: 80px;
+    height: auto;
+} 
+.pl {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 1rem;
+}
+.ico img {
+    width: 25px; 
+    height: auto;
+}
+.div8 {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.pr {
+    font-size: 1.2rem;
+    font-weight: bold;
+     margin-bottom: 0.5rem;
+}
+.p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}   
+.section7, .section8 {        
+    height: auto;
+    padding: 2rem;
+}
+.soustitre1 {
+    margin-top: -16rem;
+    text-align: center;
+}
+.section4 {
+    height: 37rem;
+}
+.part2s4{
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.grp1{
+    margin-right: 1%;
+}
+.grp2{
+    margin-top: 0rem;
+}
+.fg{
+    margin-left: -9rem;
+}
+}
+/* format ipade**************************************************/
 
 @media screen and (min-width: 501px) and (max-width: 1000px) {
-    .hp1 {
-        font-size: 2.3rem;
-        text-align: center;
+.hp1 {
+    font-size: 2.3rem;
+    text-align: center;
+}
+.ps, .pp1, .pp2, .pp3, .pp4, .pp5 {
+    font-size: 0.9rem;
+    line-height: 25px;
     }
-    
-    .ps, .pp1, .pp2, .pp3, .pp4, .pp5 {
-        font-size: 0.9rem;
-        line-height: 25px;
+.img2 {
+    width: 100%;
+    height: auto;
+    margin-left: 3rem;
+}
+.tele {
+    width: 100%;
+    height: auto;
+}
+.pictele {
+    height: auto;
+    width: 80%;
+    margin: 2rem auto;
+}
+.soustitre1, .soustitre2, .soustitre3 {
+    font-size: 1.1rem;
+    text-align: center;
     }
-    
-    .img2 {
-        width: 100%;
-        height: auto;
-        margin-left: 3rem;
-    }
-    
-    .tele {
-        width: 100%;
-        height: auto;
-    }
-    
-    .pictele {
-        height: auto;
-        width: 80%;
-        margin: 2rem auto;
-    }
-    
-    .soustitre1, .soustitre2, .soustitre3 {
-        font-size: 1.1rem;
-        text-align: center;
-    }
-    
-    .img1 {
-        width: 80%;
-        margin: 0 7rem;
-    }
-    
-    .b1{
-        width: 9rem;
-        height: 3.5rem;
-        margin: 0.5rem auto;
-    }
-    .b2 {
-        width: 9rem;
-        height: 3.5rem;
-        margin: 0.5rem auto;
-    }
-    
-    .part1, .header5 {
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem;
-    }
-    .part2s3{
-        width: 38%;
-       
-    }
-    .mac{
-        width: 123%;
-        height: 56%;
-        margin: 7rem 0rem 0rem -4rem;
-    }
-    .parts2{
-        align-items: center;
-    }
-    .ALL{
-        margin: -18rem 47px 0rem -13rem;
-    }
-    
-    .gauche {
-        width: 90%;
-        height: auto;
-        padding: 1rem;
-        text-align: center;
-    }
-    .div4{
-        width: 29%;
-        
-    }
-    .section4{
-        height: 50rem;
-    }
-
-    .header6 {
-        height: auto;
-        width: 90%;
-        margin: 2rem auto;
-        padding: 2rem;
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .header {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-
-    
-    .part2s4 {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .div4 {
-        margin: 1rem;
-    }
-    .text{
-        margin-top: 14rem;
+.img1 {
+    width: 80%;
+    margin: 0 7rem;
+} 
+.b1{
+    width: 9rem;
+    height: 3.5rem;
+    margin: 0.5rem auto;
+}
+.b2 {
+    width: 9rem;
+    height: 3.5rem;
+    margin: 0.5rem auto;
+}
+.part1, .header5 {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.part2s3{
+    width: 38%;
+}
+.mac{
+    width: 123%;
+    height: 56%;
+    margin: 7rem 0rem 0rem -4rem;
+}
+.parts2{
+    align-items: center;
+}
+.ALL{
+    margin: -18rem 47px 0rem -13rem;
+}
+.gauche {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+}
+.div4{
+    width: 29%;    
+}
+.section4{
+    height: 50rem;
+}
+.header6 {
+    height: auto;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
+}
+.header {
+    flex-direction: column;
+    align-items: center;
+}
+.part2s4 {
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.div4 {
+    margin: 1rem;
+}
+.text{
+    margin-top: 14rem;
     }
 }
 
