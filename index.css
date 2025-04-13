@@ -477,7 +477,7 @@ color: #034D82;
 .pp2{
         font-size: 95%;
 }
-.part1, .parts2, .header2, .section {        
+.part1, .parts2, .header2, .section3 {        
     align-items: center;    
     padding: 1rem;
 }
@@ -787,7 +787,7 @@ color: #034D82;
     padding: 1rem;
 }
 .part2s3{
-    width: 38%;
+    width: 28%;
 }
 .mac{
     width: 123%;
