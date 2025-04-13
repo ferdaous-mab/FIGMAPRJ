@@ -119,7 +119,7 @@ body {
   color: white;
   font-weight: bold;
 }
-.gauche{
+.gauchee{
     width: 62rem;
   height: 32rem;
 }
@@ -420,7 +420,7 @@ color: #034D82;
  
 /* format iphone ********************************************/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 390px) {
 .logo , .ehya {
     width: 3rem;
     height: 1rem;
@@ -451,7 +451,7 @@ color: #034D82;
 .img2 {
     width: 107%;
     height: auto;
-    margin:-25rem -9rem -5rem 8px;
+    margin:-25rem -9rem -5rem 1px;
   }
 .b1, .b2 {
     width: 93%;
@@ -657,9 +657,11 @@ color: #034D82;
     width: 54%;
     align-content: center;
 }
-.gauche {
+.gauchee{
     width: 100%;
     margin-left: 0px;
+    margin-top: -29rem;
+    
 }  
 .h {
     padding: 0rem 0;
