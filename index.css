@@ -129,7 +129,7 @@ body {
 .img2{
     width: 48rem;
   height: 49rem;
-  margin-left: 260px;
+  margin-left: 227px;
   margin-top: -24rem;
 }
 /*SECTION 2**********************************************/
@@ -445,14 +445,14 @@ color: #034D82;
 }
 .img11{
     margin-left: 0rem;
-    width: 16rem;
+    width: 13rem;
     margin-top: 18rem;
 }    
 .img2 {
-    width: 158%;
+    width: 107%;
     height: auto;
-    margin:-15rem -3rem -5rem -3rem;
-  }   
+    margin:-25rem -9rem -5rem 8px;
+  }
 .b1, .b2 {
     width: 93%;
     height: 3.6rem;
@@ -485,7 +485,7 @@ color: #034D82;
 .part1{
     align-items: center;
     padding:1rem;
-    margin-top: -114px;
+    margin-top: -27px;
 }
 .parts2, .header2, .section3 {        
     align-items: center;    
