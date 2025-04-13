@@ -420,7 +420,7 @@ color: #034D82;
  
 /* format iphone ********************************************/
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
 .logo , .ehya {
     width: 3rem;
     height: 1rem;
